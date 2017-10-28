@@ -1,7 +1,9 @@
 # My .files for macOS
 
+Looking for this?
+![Terminal](terminal.png)
+
 ## Installing iTerm2 with oh-my-zsh
-Start here!
 
 ### iTerm2
 [Install this](https://www.iterm2.com/) and never use the default Terminal.app again.
