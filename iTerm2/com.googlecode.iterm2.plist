@@ -38,23 +38,32 @@
 			<key>Text</key>
 			<string>69CC18B1-2F21-4690-B8B3-6931384B05CB</string>
 		</dict>
-		<key>touchbar:B2963A76-3524-47ED-B293-0DBA4D7B8639</key>
+		<key>touchbar:761A848D-D66A-42F5-8E18-78E37594CE6C</key>
 		<dict>
 			<key>Action</key>
 			<integer>12</integer>
 			<key>Label</key>
-			<string>Docker Up</string>
+			<string>DC Down</string>
 			<key>Text</key>
-			<string>dc up\n</string>
+			<string>dc down</string>
 		</dict>
-		<key>touchbar:C838E27D-F149-4867-8A9F-125DA2207568</key>
+		<key>touchbar:9BE54414-BA8B-4931-B78E-4094119B9A0C</key>
 		<dict>
 			<key>Action</key>
 			<integer>12</integer>
 			<key>Label</key>
-			<string>Docker Down</string>
+			<string>Deloitte Dev</string>
 			<key>Text</key>
-			<string>dc down\n</string>
+			<string>cd ~/Development/Deloitte\n</string>
+		</dict>
+		<key>touchbar:B525A42F-0FC5-4A6E-8DE4-53ACEE5C87C2</key>
+		<dict>
+			<key>Action</key>
+			<integer>12</integer>
+			<key>Label</key>
+			<string>DC Up</string>
+			<key>Text</key>
+			<string>dc up</string>
 		</dict>
 	</dict>
 	<key>Hotkey</key>
@@ -119,13 +128,16 @@
 	<dict>
 		<key>CurrentItems</key>
 		<array>
-			<string>iTermTouchBarIdentifierStatus</string>
 			<string>iTermTouchBarIdentifierFunctionKeys</string>
 			<string>NSTouchBarItemIdentifierFlexibleSpace</string>
-			<string>tab bar</string>
+			<string>touchbar:9BE54414-BA8B-4931-B78E-4094119B9A0C</string>
+			<string>NSTouchBarItemIdentifierFlexibleSpace</string>
+			<string>touchbar:B525A42F-0FC5-4A6E-8DE4-53ACEE5C87C2</string>
+			<string>touchbar:761A848D-D66A-42F5-8E18-78E37594CE6C</string>
+			<string>NSTouchBarItemIdentifierFlexibleSpace</string>
+			<string>touchbar:10C6411C-AACA-42FA-B573-9BA08D75D4CF</string>
+			<string>touchbar:42277E0D-B9F5-493C-849C-59BBB692CED4</string>
 			<string>NSTouchBarItemIdentifierOtherItemsProxy</string>
-			<string>iTermTouchBarIdentifierPreviousMark</string>
-			<string>iTermTouchBarIdentifierNextMark</string>
 		</array>
 		<key>DefaultItems</key>
 		<array>
@@ -146,12 +158,13 @@
 		<array>
 			<string>iTermTouchBarIdentifierFunctionKeys</string>
 			<string>NSTouchBarItemIdentifierFlexibleSpace</string>
-			<string>touchbar:B2963A76-3524-47ED-B293-0DBA4D7B8639</string>
-			<string>touchbar:C838E27D-F149-4867-8A9F-125DA2207568</string>
+			<string>touchbar:9BE54414-BA8B-4931-B78E-4094119B9A0C</string>
+			<string>NSTouchBarItemIdentifierFlexibleSpace</string>
+			<string>touchbar:B525A42F-0FC5-4A6E-8DE4-53ACEE5C87C2</string>
+			<string>touchbar:761A848D-D66A-42F5-8E18-78E37594CE6C</string>
 			<string>NSTouchBarItemIdentifierFlexibleSpace</string>
 			<string>touchbar:10C6411C-AACA-42FA-B573-9BA08D75D4CF</string>
 			<string>touchbar:42277E0D-B9F5-493C-849C-59BBB692CED4</string>
-			<string>NSTouchBarItemIdentifierFlexibleSpace</string>
 			<string>NSTouchBarItemIdentifierOtherItemsProxy</string>
 		</array>
 		<key>DefaultItems</key>
@@ -168,12 +181,14 @@
 	</dict>
 	<key>NSWindow Frame NSColorPanel</key>
 	<string>318 444 228 297 0 0 1680 1027 </string>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>530 489 620 392 0 0 1680 1027 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>611 389 918 512 0 0 1680 1027 </string>
+	<string>611 472 958 451 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 550 1442 477 0 0 1680 1027 </string>
+	<string>-1 53 1680 974 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>0 550 650 477 0 0 1680 1027 </string>
+	<string>-441 1608 650 499 -441 1050 2560 1057 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>145 1180 650 477 -441 1050 2560 1057 </string>
 	<key>New Bookmarks</key>
@@ -2121,7 +2136,11 @@
 	<key>NoSyncInstallationId</key>
 	<string>CA75F429-F85B-4F4A-9996-A6F5D86A0B3C</string>
 	<key>NoSyncLastTipTime</key>
-	<real>530905880.32664198</real>
+	<real>532951420.47290999</real>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
@@ -2130,6 +2149,10 @@
 	<array>
 		<string>000</string>
 		<string>0000</string>
+		<string>0001</string>
+		<string>0002</string>
+		<string>0003</string>
+		<string>0004</string>
 	</array>
 	<key>PointerActions</key>
 	<dict>
@@ -2177,19 +2200,23 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-10-28T17:51:20Z</date>
+	<date>2017-11-22T15:45:00Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>Secure Input</key>
 	<false/>
+	<key>ShowFullScreenTabBar</key>
+	<false/>
 	<key>TabStyle</key>
 	<integer>0</integer>
+	<key>TimeBetweenTips</key>
+	<real>604800</real>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.1.4</string>
+	<string>3.1.5</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
