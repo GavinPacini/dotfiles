@@ -9,7 +9,7 @@ Looking for this?
 [Install this](https://www.iterm2.com/) and never use the default Terminal.app again.
 
 ### Install Source Code Pro
-[Get it here](https://github.com/powerline/fonts/blob/master/SourceCodePro/Sauce%20Code%20Powerline%20Regular.otf), open the downloaded font and press "Install Font".
+[Get it here](https://github.com/adobe-fonts/source-code-pro/releases/tag/2.030R-ro%2F1.050R-it). Download the source code zip file, then navigate to the `OTF` folder. Open `SourceCodePro-Regular.otf` and click "Install Font".
 
 ### Finalise iTerm2 Settings
  - Preferences → General → "Load preferences from a custom folder or URL:" set to the `iTerm2` folder in this repo.
