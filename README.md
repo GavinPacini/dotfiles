@@ -28,6 +28,7 @@ Restart iTerm2 for all changes to take effect.
  - [Docker](https://docs.docker.com/docker-for-mac/install/)
  - [NVM](http://yoember.com/nodejs/the-best-way-to-install-node-js/)
  - [VS Code](https://code.visualstudio.com/docs?dv=osx)
+ - [Crypto Touchbar](https://chrislennon.github.io/Crypto-Touchbar-App/)
 
 ## Other Configs
  
