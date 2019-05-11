@@ -1,9 +1,21 @@
 {
-    "editor.tabSize": 2,
-    "editor.detectIndentation": false,
-    "editor.renderWhitespace": "all",
-    "editor.minimap.enabled": false,
-    "files.eol": "\n",
-    "terminal.integrated.fontFamily": "Source Code Pro",
-    "window.zoomLevel": 0
-  }
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.renderWhitespace": "all",
+  "editor.minimap.enabled": false,
+  "files.eol": "\n",
+  "terminal.integrated.fontFamily": "Source Code Pro",
+  "window.zoomLevel": 0,
+  "cSpell.userWords": [
+    "blockchain"
+  ],
+  "cmake.configureOnOpen": true,
+  "editor.wordWrap": "on",
+  "editor.insertSpaces": true,
+  "workbench.colorTheme": "Default Light+",
+  "nightswitch.dayTheme": "Default Light+",
+  "nightswitch.nightTheme": "Default Dark+",
+  "nightswitch.geolocation": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+}

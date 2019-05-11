@@ -1,0 +1,24 @@
+# Made with 'code --list-extensions > vscode-extensions.list'
+# Can be used to install with 'cat vscode-extensions.list | xargs -L 1 code --install-extension'
+alexdima.vscode-lcov
+dtsvet.vscode-wasm
+gharveymn.nightswitch
+JuanBlanco.solidity
+mathiasfrohlich.Kotlin
+ms-mssql.mssql
+ms-vscode.cpptools
+ms-vscode.Go
+msazurermtools.azurerm-vscode-tools
+octref.vetur
+PeterJausovec.vscode-docker
+redhat.java
+streetsidesoftware.code-spell-checker
+twxs.cmake
+vector-of-bool.cmake-tools
+VisualStudioExptTeam.vscodeintellicode
+vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
+vscjava.vscode-java-pack
+vscjava.vscode-java-test
+vscjava.vscode-maven
+vscode-icons-team.vscode-icons
