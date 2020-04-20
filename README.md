@@ -13,13 +13,16 @@ Looking for this?
 
 ### Finalise iTerm2 Settings
  - Preferences → General → "Load preferences from a custom folder or URL:" set to the `iTerm2` folder in this repo.
- - Install Shell Integration
+ - Profiles → Other Actions → "Import JSON profiles..." choose the `profiles.json` file in the `iTerm2` folder.
+ - Install Shell Integration.
 
 ### oh-my-zsh
     
     sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
     
 When the installation is done, edit `~/.zshrc` based on the `zshrc` file in the `zsh` folder in this repo.
+
+Change your default login shell to zsh.
 
 Restart iTerm2 for all changes to take effect.
 
