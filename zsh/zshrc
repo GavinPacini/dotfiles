@@ -89,29 +89,3 @@ alias dc="docker-compose"
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
-
-# export OPENSSL_INCLUDE_DIR=`brew --prefix openssl`/include
-# export OPENSSL_LIB_DIR=`brew --prefix openssl`/lib
-# export DEP_OPENSSL_INCLUDE=`brew --prefix openssl`/include
-
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" --no-use # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-alias node='unalias node ; unalias npm ; nvm use default ; node $@'
-alias npm='unalias node ; unalias npm ; nvm use default ; npm $@'
-
-alias solve='node /Users/gpacini/Development/Personal/cli-cube-timer/cli.js'
-
-source $HOME/.rvm/scripts/rvm
-
-export PATH="$PATH:$HOME/Library/Python/3.7/bin"
-export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-
-export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
