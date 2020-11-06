@@ -37,4 +37,4 @@ Restart iTerm2 for all changes to take effect.
 ### VS Code
  - Open VS Code
  - Go into the User Settings (`⌘` + `,`) and copy in the `settings.json` from the `VSCode` folder.
- - CMD+SHIFT+P: type "code" and click "Shell command: install..."
+ - `⌘` + `⇧` + `P`, then type `code` and click `Shell command: install...`
