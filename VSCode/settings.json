@@ -2,20 +2,28 @@
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
   "editor.renderWhitespace": "all",
-  "editor.minimap.enabled": false,
-  "files.eol": "\n",
-  "terminal.integrated.fontFamily": "Source Code Pro",
-  "window.zoomLevel": 0,
-  "cSpell.userWords": [
-    "blockchain"
-  ],
-  "cmake.configureOnOpen": true,
   "editor.wordWrap": "on",
   "editor.insertSpaces": true,
-  "workbench.colorTheme": "Default Light+",
-  "nightswitch.dayTheme": "Default Light+",
-  "nightswitch.nightTheme": "Default Dark+",
-  "nightswitch.geolocation": true,
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+  "terminal.integrated.fontFamily": "Source Code Pro",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[solidity]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "NomicFoundation.hardhat-solidity"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "hardhat.telemetry": false,
 }
