@@ -28,7 +28,7 @@ Restart iTerm2 for all changes to take effect.
 ## Other Programs to Install
  - [Brew](https://brew.sh/)
  - [Docker](https://docs.docker.com/docker-for-mac/install/)
- - [fnm](https://github.com/Schniz/fnm)
+ - [nvm](https://github.com/nvm-sh/nvm)
  - [VS Code](https://code.visualstudio.com/docs?dv=osx)
  - [Crypto Touchbar](https://chrislennon.github.io/Crypto-Touchbar-App/)
 
