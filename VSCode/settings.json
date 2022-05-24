@@ -5,6 +5,7 @@
   "editor.wordWrap": "on",
   "editor.insertSpaces": true,
   "terminal.integrated.fontFamily": "Source Code Pro",
+// Only use the below for laptops
   "editor.multiCursorModifier": "ctrlCmd",
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
